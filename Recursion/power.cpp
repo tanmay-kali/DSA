@@ -2,15 +2,6 @@
 #include "Solution.h"
 using namespace std;
 
-
-int main(){
-    int x, n;
-    cin >> x >> n;
-  
-    cout << power(x, n) << endl;
-}
-
-
 int power(int x, int n) {
   /* Don't write main().
      Don't read input, it is passed as function argument.
@@ -26,3 +17,14 @@ int power(int x, int n) {
     
     return smallOutput;
 }
+
+
+int main(){
+    int x, n;
+    cin >> x >> n;
+  
+    cout << power(x, n) << endl;
+}
+
+
+
